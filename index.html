@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatibled" content="ie=edge">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <main>
+        <header>
+            <h1>Curriculum Vitaee</h1>
+                
+            
+        </header>
+        <form action="#" method="POST">
+                <fieldset>
+                    <legend>Personal Data</legend>
+                        <label form="dui">DUI</label>
+                        <input type="text" name="dui" placeholder="048134128" id="dui" required pattern="[0][0-9]{7}-[0-9]">
+                        <label form="name">First Name</label>
+                        <input type="text" name="name" id ="name" placeholder="First Name" required pattern="[A-Z a-z]{0,10}">
+                        <label form="lastname">Lastname</label>
+                        <input type="text" name="lastname" id ="lastname" placeholder="Last Name" required pattern="[A-A a-z]{0,10}">
+            
+                        <label form="gender" >Gender</label>
+                        <input type="radio" name="gender" value="M">M
+                        <input type="radio" name="gender" value="F" required>F<br>
+                        <label form="tel">Conctact Number</label>
+                        <input type="tel" name="tel" id="tel" required pattern="[0-9]{8}">
+                        <label form="birthdate" name="birthdate" id="birthdate"></label>
+                        <input type="date" name="birthdate" id="birthdate" placeholder="mm/dd/yyyy" required>
+                        <label form="status" name="status">Civil Status</label>
+                        <select required>
+                            <option value="single">Single</option>
+                        </select>
+                        <label form="image">image</label>
+                        <input type="file">
+                        
+                    
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Work Experience</legend>
+                        <label for="experience"></label>
+                        <textarea name="experience" id="experience" cols="200" rows="10" placeholder="Experience" required></textarea>
+                </fieldset>
+                <fieldset>
+                        <legend>Academic training</legend>
+                            
+                        <label for="Atraining"></label>
+                        <textarea name="training" id="training" cols="200" rows="10" placeholder="Training" required></textarea>    
+                    </fieldset>
+                    <fieldset>
+                            <legend>Further Training</legend>
+                                <fieldset>
+                                    <legend>Programing Languajes</legend>
+                                    <label form="programing languaje">Java</label>
+                                    <input type="checkbox" name="programing languaje" value="java">
+
+                                    <label form="programing languaje">C#</label>
+                                    <input type="checkbox" name="programing languaje" value="c#">
+
+                                    <label form="programing languaje">Python</label>
+                                    <input type="checkbox" name="programing languaje" value="python">
+
+                                    <label form="programing languaje">C++</label>
+                                    <input type="checkbox" name="programing languaje" value="c++">
+
+                                    <label form="programing languaje">Ruby</label>
+                                    <input type="checkbox" name="programing languaje" value="ruby">
+                                </fieldset>
+                                <fieldset>
+                                    <legend>
+                                        WEB Technologies
+                                    </legend>
+
+                                    <label form="webt">HTML5</label>
+                                    <input type="checkbox" name="webt" value="html5">
+                                    <label form="webt">CSS/CSS3</label>
+                                    <input type="checkbox" name="webt" value="css">
+                                    <label form="webt">materialize Css</label>
+                                    <input type="checkbox" name="webt" value="mcss">
+                                    <label form="webt">Javascript</label>
+                                    <input type="checkbox" name="webt" value="javascript">
+                                    <label form="webt">Node.js</label>
+                                    <input type="checkbox" name="webt" value="nodejs">
+                                    <label form="webt">Spring MVC</label>
+                                    <input type="checkbox" name="webt" value="spring">
+                                </fieldset>
+                                
+                        </fieldset>
+                    <input type="submit" name="send">
+                    <input type="button" name="cancel" value="Cancel">    
+
+
+            
+            </form>
+        </main>    
+</body>
+
+</html>
